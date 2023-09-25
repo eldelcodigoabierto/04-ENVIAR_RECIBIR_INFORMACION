@@ -17,6 +17,9 @@ public class Direccion implements Serializable {
         this.ciudad = ciudad;
     }
 
+    public Direccion(String calle, int numero, String ciudad) {
+    }
+
     public String getCalle() {
         return calle;
     }
